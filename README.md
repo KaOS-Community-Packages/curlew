@@ -7,6 +7,8 @@ Needed from KCP:
 
 kcp -di [mediainfo](../../../mediainfo)
 
+kcp -di [ffmpeg0.10](../../../ffmpeg0.10)
+
 Install:
 ```
 kcp -i curlew
