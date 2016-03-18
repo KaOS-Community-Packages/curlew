@@ -5,9 +5,11 @@ pkgdesc='Easy to use, Free and Open-Source Multimedia converter for Linux in Pyt
 arch=('x86_64')
 license=('Waqf GPL')
 url="http://sourceforge.net/projects/curlew/"
-depends=('python3' 'ffmpeg' 'python3-gobject3' 'hicolor-icon-theme' 'gobject-introspection' 'xdg-utils' 'pyxdg' 'dbus-python3' 'mediainfo')
+depends=('python3' 'ffmpeg' 'python3-gobject3' 'hicolor-icon-theme' 'gobject-introspection' 'xdg-utils' 'pyxdg' 'dbus-python3' 'mediainfo' 'ffmpeg0.10')
 makedepends=('intltool' 'librsvg')
-optdepends=('curl: Aurploader support')
+optdepends=('curl: Aurploader support'
+            'midna-gtk-icon-theme: support GTK themes for Midna icons'
+            'breeze-gtk: enhanced management for themes gtk 2 and 3')
 source=("http://downloads.sourceforge.net/project/${pkgname}/${pkgname}-${pkgver}/${pkgname}-${pkgver}.tar.gz")
 sha256sums=('b2432c97997655543ebd759adfebb37594d270bad980e02db48368886f45e60f')
 install="${pkgname}.install"
